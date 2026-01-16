@@ -56,4 +56,3 @@ with h5py.File(args.output_path, 'w') as fout:
     dset = fout.create_dataset(str(index), (LAYER_COUNT, len(tokenized_text), FEATURE_COUNT))
     dset[:,:,:] = np.vstack([np.array(x) for x in encoded_layers])
   
-

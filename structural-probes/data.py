@@ -409,6 +409,16 @@ class BERTDataset(SubwordDataset):
     return observations
 
 
+####### added
+import signal
+class TimeoutException(Exception):
+    pass
+
+def handler(signum, frame):
+    raise TimeoutException()
+
+
+
 class ObservationIterator(Dataset):
   """ List Container for lists of Observations and labels for them.
 
@@ -427,8 +437,9 @@ class ObservationIterator(Dataset):
       task: a Task object which takes Observations and constructs labels.
     """
     self.labels = []
-    for observation in tqdm(observations, desc='[computing labels]'):
+    for i, observation in enumerate(tqdm(observations, desc='[computing labels]')):
       self.labels.append(task.labels(observation))
+
 
   def __len__(self):
     return len(self.observations)
