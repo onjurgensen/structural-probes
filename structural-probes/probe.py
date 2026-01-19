@@ -19,7 +19,7 @@ class TwoWordPSDProbe(Probe):
     self.probe_rank = args['probe']['maximum_rank']
     self.model_dim = args['model']['hidden_dim']
     self.proj = nn.Parameter(data = torch.zeros(self.model_dim, self.probe_rank))
-    nn.init.uniform_(self.proj, -0.05, 0.05)
+    nn.init.uniform_(self.proj, -0.005, 0.005) # nn.init.uniform_(self.proj, -0.05, 0.05)
     self.to(args['device'])
 
   def forward(self, batch):

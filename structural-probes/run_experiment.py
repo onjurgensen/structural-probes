@@ -57,6 +57,8 @@ def choose_dataset_class(args):
     dataset_class = data.ELMoDataset
   elif args['model']['model_type'] == 'BERT-disk':
     dataset_class = data.BERTDataset
+  elif args['model']['model_type'] == 'gpt2':
+    dataset_class = data.GPT2Dataset
   else:
     raise ValueError("Unknown model type for datasets: {}".format(
       args['model']['model_type']))
@@ -99,6 +101,8 @@ def choose_model_class(args):
     return model.DiskModel
   elif args['model']['model_type'] == 'ELMo-random-projection':
     return model.ProjectionModel
+  elif args['model']['model_type'] == 'gpt2':
+    return model.DiskModel
   elif args['model']['model_type'] == 'ELMo-decay':
     return model.DecayModel
   elif args['model']['model_type'] == 'pytorch_model':

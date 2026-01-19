@@ -173,6 +173,15 @@ class SimpleDataset:
       observation = observations[index]
       feature_stack = hf[str(index)]
       single_layer_features = feature_stack[layer_index]
+
+      if single_layer_features.shape[0] != len(observation.sentence):
+          print(f"Sentence idx: {id}")
+          print(f"Embeddings shape: {single_layer_features.shape}")
+          print(f"Sentence tokens: {observation.sentence}")
+          print(f"Num tokens in .conllu: {len(observation.sentence)}")
+          print(f"Num embeddings: {single_layer_features.shape[0]}")
+      assert single_layer_features.shape[0] == len(observation.sentence)
+
       assert single_layer_features.shape[0] == len(observation.sentence)
       single_layer_features_list.append(single_layer_features)
     return single_layer_features_list
@@ -408,14 +417,18 @@ class BERTDataset(SubwordDataset):
     observations = self.add_embeddings_to_observations(observations, embeddings)
     return observations
 
+class GPT2Dataset(SubwordDataset):
+    """Dataloader for conllx files and pre-computed GPT-2 embeddings.
 
-####### added
-import signal
-class TimeoutException(Exception):
-    pass
+    Assumes embeddings are aligned with tokens in conllx file.
+    """
 
-def handler(signum, frame):
-    raise TimeoutException()
+    def optionally_add_embeddings(self, observations, pretrained_embeddings_path):
+        layer_index = self.args['model']['model_layer']
+        print('Loading GPT-2 Pretrained Embeddings from {}; using layer {}'.format(pretrained_embeddings_path, layer_index))
+        embeddings = self.generate_token_embeddings_from_hdf5(self.args, observations, pretrained_embeddings_path, layer_index)
+        observations = self.add_embeddings_to_observations(observations, embeddings)
+        return observations
 
 
 
