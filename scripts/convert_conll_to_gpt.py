@@ -1,3 +1,4 @@
+import pandas as pd
 import torch
 import transformer_lens
 from argparse import ArgumentParser
@@ -14,10 +15,10 @@ class ConllToGPTConverter:
             self.tokenizer = self.model.tokenizer
         except Exception:
             raise ValueError("selected gpt_model not found")
-        self.layer_names = ['hook_embed'] + [f'blocks.{i}.hook_resid_post' for i in range(self.model.cfg.n_layers)]
+        self.layer_names = ['blocks.0.hook_resid_pre'] + [f'blocks.{i}.hook_resid_post' for i in range(self.model.cfg.n_layers)] # changed from 'hook_embed'
         self.feature_count = self.model.cfg.d_model
 
-    def combine_token_embeddings(self, text, word_list, pooling="last"):
+    def combine_token_embeddings(self, text, word_list, pooling): 
         tokenizer = self.tokenizer
         encoding = tokenizer(
             text,
@@ -40,6 +41,7 @@ class ConllToGPTConverter:
             word_spans.append((start, end))
             cursor = end
         word_embeddings = []
+        token_idxs_list = []
         for (ws, we) in word_spans:
             token_idxs = [
                 i for i, (ts, te) in enumerate(offsets)
@@ -52,26 +54,32 @@ class ConllToGPTConverter:
             token_embs = {layer: activations[layer][token_idxs] for layer in self.layer_names}
             if pooling == "last":
                 word_emb = {layer: token_embs[layer][-1] for layer in self.layer_names}
+                token_idxs = token_idxs[-1]
             elif pooling == "first":
                 word_emb = {layer: token_embs[layer][0] for layer in self.layer_names}
+                token_idxs = token_idxs[0]
             elif pooling == "mean":
                 word_emb = {layer: token_embs[layer].mean(dim=0) for layer in self.layer_names}
+                token_idxs = np.mean(token_idxs)
             word_embeddings.append(word_emb)
+            token_idxs_list.append(token_idxs)
         stacked = torch.stack(
             [torch.stack([we[layer] for we in word_embeddings]) for layer in self.layer_names]
         )
-        return stacked
+        return stacked, token_idxs_list
 
-    def convert(self, input_path, output_path):
+    def convert(self, input_path, output_path, pkl_path):
         with h5py.File(output_path, 'w') as fout:
+            data = []
             with open(input_path, "r", encoding="utf-8") as fin:
                 sentences = list(parse_incr(fin))
                 for idx, sent in enumerate(tqdm(sentences)):
                     text = sent.metadata["text"] if "text" in sent.metadata else " ".join([tok["form"] for tok in sent])
                     word_list = [tok["form"] for tok in sent]
-                    stacked = self.combine_token_embeddings(text, word_list, pooling="last")
+                    stacked, token_idxs_list = self.combine_token_embeddings(text, word_list, pooling="mean")
                     fout.create_dataset(str(idx), data=stacked.cpu().numpy())
-
+                    data.append({'sentence_idx': idx, 'word_list': word_list, 'token_idxs': token_idxs_list})
+            pd.DataFrame(data).to_pickle(pkl_path)
 def main():
     argp = ArgumentParser()
     argp.add_argument('input_path')
@@ -79,7 +87,7 @@ def main():
     argp.add_argument('gpt_model', help='gpt2, distilgpt2, gpt2-medium, gpt2-large, gpt2-xl')
     args = argp.parse_args()
     converter = ConllToGPTConverter(args.gpt_model)
-    converter.convert(args.input_path, args.output_path)
+    converter.convert(args.input_path, args.output_path, args.output_path.split(".hdf5", 1)[0] + "_toks.pkl")
 
 if __name__ == "__main__":
     main()

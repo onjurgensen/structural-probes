@@ -24,7 +24,7 @@ dataset:
     test_path: gpt2_test_embeddings.hdf5
   batch_size: 20
 model:
-  hidden_dim: 768 # ELMo hidden dim
+  hidden_dim: 768 # GPT-2 small
   model_type: gpt2
   use_disk: True
   model_layer: 1 # 8 # fuck it we ball

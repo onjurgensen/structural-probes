@@ -1,0 +1,944 @@
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    From\& the\& AP\& comes\& this\& story\& : \\
+\end{deptext}
+\depedge{1}{3}{.}
+\depedge{2}{3}{.}
+\depedge{3}{4}{.}
+\depedge{4}{6}{.}
+\depedge{5}{6}{.}
+\depedge[edge style={red!60!}, edge below]{5}{6}{.}
+\depedge[edge style={red!60!}, edge below]{4}{6}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{1}{4}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    President\& Bush\& on\& Tuesday\& nominated\& two\& individuals\& to\& replace\& retiring\& jurists\& on\& federal\& courts\& in\& the\& Washington\& area\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{5}{.}
+\depedge{3}{4}{.}
+\depedge{4}{5}{.}
+\depedge{5}{7}{.}
+\depedge{5}{9}{.}
+\depedge{6}{7}{.}
+\depedge{8}{9}{.}
+\depedge{9}{11}{.}
+\depedge{10}{11}{.}
+\depedge{11}{14}{.}
+\depedge{12}{14}{.}
+\depedge{13}{14}{.}
+\depedge{14}{18}{.}
+\depedge{15}{18}{.}
+\depedge{16}{18}{.}
+\depedge{17}{18}{.}
+\depedge[edge style={red!60!}, edge below]{11}{14}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{9}{10}{.}
+\depedge[edge style={red!60!}, edge below]{6}{7}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{7}{10}{.}
+\depedge[edge style={red!60!}, edge below]{5}{10}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\depedge[edge style={red!60!}, edge below]{1}{5}{.}
+\depedge[edge style={red!60!}, edge below]{16}{18}{.}
+\depedge[edge style={red!60!}, edge below]{17}{18}{.}
+\depedge[edge style={red!60!}, edge below]{14}{18}{.}
+\depedge[edge style={red!60!}, edge below]{12}{15}{.}
+\depedge[edge style={red!60!}, edge below]{15}{18}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    Bush\& nominated\& Jennifer\& M.\& Anderson\& for\& a\& 15\& -\& year\& term\& as\& associate\& judge\& of\& the\& Superior\& Court\& of\& the\& District\& of\& Columbia\& ,\& replacing\& Steffen\& W.\& Graae\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{3}{.}
+\depedge{2}{11}{.}
+\depedge{2}{25}{.}
+\depedge{3}{4}{.}
+\depedge{3}{5}{.}
+\depedge{6}{11}{.}
+\depedge{7}{11}{.}
+\depedge{8}{9}{.}
+\depedge{8}{10}{.}
+\depedge{10}{11}{.}
+\depedge{11}{14}{.}
+\depedge{12}{14}{.}
+\depedge{13}{14}{.}
+\depedge{14}{18}{.}
+\depedge{15}{18}{.}
+\depedge{16}{18}{.}
+\depedge{17}{18}{.}
+\depedge{18}{21}{.}
+\depedge{19}{21}{.}
+\depedge{20}{21}{.}
+\depedge{21}{23}{.}
+\depedge{22}{23}{.}
+\depedge{25}{26}{.}
+\depedge{26}{27}{.}
+\depedge{26}{28}{.}
+\depedge[edge style={red!60!}, edge below]{16}{20}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{19}{22}{.}
+\depedge[edge style={red!60!}, edge below]{26}{27}{.}
+\depedge[edge style={red!60!}, edge below]{20}{21}{.}
+\depedge[edge style={red!60!}, edge below]{17}{18}{.}
+\depedge[edge style={red!60!}, edge below]{26}{28}{.}
+\depedge[edge style={red!60!}, edge below]{14}{18}{.}
+\depedge[edge style={red!60!}, edge below]{11}{13}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{1}{3}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\depedge[edge style={red!60!}, edge below]{22}{23}{.}
+\depedge[edge style={red!60!}, edge below]{8}{10}{.}
+\depedge[edge style={red!60!}, edge below]{19}{21}{.}
+\depedge[edge style={red!60!}, edge below]{15}{19}{.}
+\depedge[edge style={red!60!}, edge below]{18}{21}{.}
+\depedge[edge style={red!60!}, edge below]{11}{12}{.}
+\depedge[edge style={red!60!}, edge below]{3}{5}{.}
+\depedge[edge style={red!60!}, edge below]{7}{11}{.}
+\depedge[edge style={red!60!}, edge below]{14}{26}{.}
+\depedge[edge style={red!60!}, edge below]{6}{11}{.}
+\depedge[edge style={red!60!}, edge below]{2}{11}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{25}{28}{.}
+\depedge[edge style={red!60!}, edge below]{8}{11}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    *** \\
+\end{deptext}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    Bush\& also\& nominated\& A.\& Noel\& Anketell\& Kramer\& for\& a\& 15\& -\& year\& term\& as\& associate\& judge\& of\& the\& District\& of\& Columbia\& Court\& of\& Appeals\& ,\& replacing\& John\& Montague\& Steadman\& . \\
+\end{deptext}
+\depedge{1}{3}{.}
+\depedge{2}{3}{.}
+\depedge{3}{4}{.}
+\depedge{3}{13}{.}
+\depedge{3}{26}{.}
+\depedge{4}{5}{.}
+\depedge{4}{6}{.}
+\depedge{4}{7}{.}
+\depedge{8}{13}{.}
+\depedge{9}{13}{.}
+\depedge{10}{11}{.}
+\depedge{10}{12}{.}
+\depedge{12}{13}{.}
+\depedge{13}{16}{.}
+\depedge{14}{16}{.}
+\depedge{15}{16}{.}
+\depedge{16}{22}{.}
+\depedge{17}{22}{.}
+\depedge{18}{19}{.}
+\depedge{19}{21}{.}
+\depedge{19}{22}{.}
+\depedge{20}{21}{.}
+\depedge{22}{24}{.}
+\depedge{23}{24}{.}
+\depedge{26}{27}{.}
+\depedge{27}{28}{.}
+\depedge{27}{29}{.}
+\depedge[edge style={red!60!}, edge below]{22}{24}{.}
+\depedge[edge style={red!60!}, edge below]{1}{3}{.}
+\depedge[edge style={red!60!}, edge below]{6}{7}{.}
+\depedge[edge style={red!60!}, edge below]{27}{29}{.}
+\depedge[edge style={red!60!}, edge below]{27}{28}{.}
+\depedge[edge style={red!60!}, edge below]{16}{22}{.}
+\depedge[edge style={red!60!}, edge below]{20}{23}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{13}{15}{.}
+\depedge[edge style={red!60!}, edge below]{13}{16}{.}
+\depedge[edge style={red!60!}, edge below]{18}{19}{.}
+\depedge[edge style={red!60!}, edge below]{19}{24}{.}
+\depedge[edge style={red!60!}, edge below]{10}{12}{.}
+\depedge[edge style={red!60!}, edge below]{17}{20}{.}
+\depedge[edge style={red!60!}, edge below]{20}{21}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\depedge[edge style={red!60!}, edge below]{17}{19}{.}
+\depedge[edge style={red!60!}, edge below]{16}{29}{.}
+\depedge[edge style={red!60!}, edge below]{3}{6}{.}
+\depedge[edge style={red!60!}, edge below]{9}{13}{.}
+\depedge[edge style={red!60!}, edge below]{8}{13}{.}
+\depedge[edge style={red!60!}, edge below]{5}{6}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{7}{16}{.}
+\depedge[edge style={red!60!}, edge below]{10}{13}{.}
+\depedge[edge style={red!60!}, edge below]{26}{29}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    The\& sheikh\& in\& wheel\& -\& chair\& has\& been\& attacked\& with\& a\& F\& -\& 16\& -\& launched\& bomb\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{6}{.}
+\depedge{2}{9}{.}
+\depedge{3}{6}{.}
+\depedge{4}{5}{.}
+\depedge{4}{6}{.}
+\depedge{7}{9}{.}
+\depedge{8}{9}{.}
+\depedge{9}{17}{.}
+\depedge{10}{17}{.}
+\depedge{11}{17}{.}
+\depedge{12}{14}{.}
+\depedge{12}{15}{.}
+\depedge{12}{16}{.}
+\depedge{13}{14}{.}
+\depedge{16}{17}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{7}{9}{.}
+\depedge[edge style={red!60!}, edge below]{16}{17}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{14}{16}{.}
+\depedge[edge style={red!60!}, edge below]{9}{17}{.}
+\depedge[edge style={red!60!}, edge below]{2}{9}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{2}{6}{.}
+\depedge[edge style={red!60!}, edge below]{12}{16}{.}
+\depedge[edge style={red!60!}, edge below]{4}{6}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{9}{10}{.}
+\depedge[edge style={red!60!}, edge below]{13}{15}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    He\& could\& be\& killed\& years\& ago\& and\& the\& israelians\& have\& all\& the\& reasons\& ,\& since\& he\& founded\& and\& he\& is\& the\& spiritual\& leader\& of\& Hamas\& ,\& but\& they\& did\& n't\& . \\
+\end{deptext}
+\depedge{1}{4}{.}
+\depedge{2}{4}{.}
+\depedge{3}{4}{.}
+\depedge{4}{6}{.}
+\depedge{4}{10}{.}
+\depedge{4}{29}{.}
+\depedge{5}{6}{.}
+\depedge{7}{10}{.}
+\depedge{8}{9}{.}
+\depedge{9}{10}{.}
+\depedge{10}{13}{.}
+\depedge{10}{17}{.}
+\depedge{11}{13}{.}
+\depedge{12}{13}{.}
+\depedge{15}{17}{.}
+\depedge{16}{17}{.}
+\depedge{17}{23}{.}
+\depedge{18}{23}{.}
+\depedge{19}{23}{.}
+\depedge{20}{23}{.}
+\depedge{21}{23}{.}
+\depedge{22}{23}{.}
+\depedge{23}{25}{.}
+\depedge{24}{25}{.}
+\depedge{27}{29}{.}
+\depedge{28}{29}{.}
+\depedge{29}{30}{.}
+\depedge[edge style={red!60!}, edge below]{29}{30}{.}
+\depedge[edge style={red!60!}, edge below]{16}{19}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{4}{6}{.}
+\depedge[edge style={red!60!}, edge below]{12}{13}{.}
+\depedge[edge style={red!60!}, edge below]{21}{23}{.}
+\depedge[edge style={red!60!}, edge below]{20}{23}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{17}{23}{.}
+\depedge[edge style={red!60!}, edge below]{10}{13}{.}
+\depedge[edge style={red!60!}, edge below]{2}{4}{.}
+\depedge[edge style={red!60!}, edge below]{28}{29}{.}
+\depedge[edge style={red!60!}, edge below]{22}{23}{.}
+\depedge[edge style={red!60!}, edge below]{1}{4}{.}
+\depedge[edge style={red!60!}, edge below]{11}{13}{.}
+\depedge[edge style={red!60!}, edge below]{19}{23}{.}
+\depedge[edge style={red!60!}, edge below]{19}{28}{.}
+\depedge[edge style={red!60!}, edge below]{23}{27}{.}
+\depedge[edge style={red!60!}, edge below]{6}{10}{.}
+\depedge[edge style={red!60!}, edge below]{23}{25}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{8}{21}{.}
+\depedge[edge style={red!60!}, edge below]{7}{10}{.}
+\depedge[edge style={red!60!}, edge below]{23}{24}{.}
+\depedge[edge style={red!60!}, edge below]{10}{23}{.}
+\depedge[edge style={red!60!}, edge below]{9}{10}{.}
+\depedge[edge style={red!60!}, edge below]{7}{18}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    Today\& 's\& incident\& proves\& that\& Sharon\& has\& lost\& his\& patience\& and\& his\& hope\& in\& peace\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{1}{3}{.}
+\depedge{3}{4}{.}
+\depedge{4}{8}{.}
+\depedge{5}{8}{.}
+\depedge{6}{8}{.}
+\depedge{7}{8}{.}
+\depedge{8}{10}{.}
+\depedge{9}{10}{.}
+\depedge{10}{13}{.}
+\depedge{11}{13}{.}
+\depedge{12}{13}{.}
+\depedge{13}{15}{.}
+\depedge{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{1}{3}{.}
+\depedge[edge style={red!60!}, edge below]{8}{10}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{10}{13}{.}
+\depedge[edge style={red!60!}, edge below]{13}{15}{.}
+\depedge[edge style={red!60!}, edge below]{5}{7}{.}
+\depedge[edge style={red!60!}, edge below]{12}{13}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{11}{13}{.}
+\depedge[edge style={red!60!}, edge below]{9}{10}{.}
+\depedge[edge style={red!60!}, edge below]{5}{6}{.}
+\depedge[edge style={red!60!}, edge below]{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    Nervous\& people\& make\& mistakes\& ,\& so\& I\& suppose\& there\& will\& be\& a\& wave\& of\& succesfull\& arab\& attacks\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{3}{.}
+\depedge{3}{4}{.}
+\depedge{3}{8}{.}
+\depedge{6}{8}{.}
+\depedge{7}{8}{.}
+\depedge{8}{11}{.}
+\depedge{9}{11}{.}
+\depedge{10}{11}{.}
+\depedge{11}{13}{.}
+\depedge{12}{13}{.}
+\depedge{13}{17}{.}
+\depedge{14}{17}{.}
+\depedge{15}{17}{.}
+\depedge{16}{17}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{15}{17}{.}
+\depedge[edge style={red!60!}, edge below]{11}{13}{.}
+\depedge[edge style={red!60!}, edge below]{12}{13}{.}
+\depedge[edge style={red!60!}, edge below]{11}{15}{.}
+\depedge[edge style={red!60!}, edge below]{3}{8}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{8}{13}{.}
+\depedge[edge style={red!60!}, edge below]{3}{6}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    A\& la\& guerre\& c'est\& comme\& a\& la\& guerre\& ! \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{1}{3}{.}
+\depedge{1}{4}{.}
+\depedge{1}{5}{.}
+\depedge{1}{6}{.}
+\depedge{1}{7}{.}
+\depedge{1}{8}{.}
+\depedge[edge style={red!60!}, edge below]{3}{8}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{2}{7}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{6}{7}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    In\& the\& eastern\& city\& of\& Baqubah\& ,\& guerrillas\& detonated\& a\& car\& bomb\& outside\& a\& police\& station\& ,\& killing\& several\& people\& . \\
+\end{deptext}
+\depedge{1}{4}{.}
+\depedge{2}{4}{.}
+\depedge{3}{4}{.}
+\depedge{4}{6}{.}
+\depedge{4}{9}{.}
+\depedge{5}{6}{.}
+\depedge{8}{9}{.}
+\depedge{9}{12}{.}
+\depedge{9}{16}{.}
+\depedge{9}{18}{.}
+\depedge{10}{12}{.}
+\depedge{11}{12}{.}
+\depedge{13}{16}{.}
+\depedge{14}{16}{.}
+\depedge{15}{16}{.}
+\depedge{18}{20}{.}
+\depedge{19}{20}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{2}{4}{.}
+\depedge[edge style={red!60!}, edge below]{14}{16}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{19}{20}{.}
+\depedge[edge style={red!60!}, edge below]{11}{12}{.}
+\depedge[edge style={red!60!}, edge below]{1}{4}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{13}{16}{.}
+\depedge[edge style={red!60!}, edge below]{6}{8}{.}
+\depedge[edge style={red!60!}, edge below]{10}{14}{.}
+\depedge[edge style={red!60!}, edge below]{9}{11}{.}
+\depedge[edge style={red!60!}, edge below]{18}{20}{.}
+\depedge[edge style={red!60!}, edge below]{4}{8}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{15}{20}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    The\& US\& lost\& yet\& another\& helicopter\& to\& hostile\& fire\& near\& Habbaniyah\& in\& the\& Sunni\& heartland\& ,\& but\& this\& time\& the\& crew\& was\& safe\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{3}{.}
+\depedge{3}{6}{.}
+\depedge{3}{9}{.}
+\depedge{3}{23}{.}
+\depedge{4}{5}{.}
+\depedge{5}{6}{.}
+\depedge{7}{9}{.}
+\depedge{8}{9}{.}
+\depedge{9}{11}{.}
+\depedge{10}{11}{.}
+\depedge{11}{15}{.}
+\depedge{12}{15}{.}
+\depedge{13}{15}{.}
+\depedge{14}{15}{.}
+\depedge{17}{23}{.}
+\depedge{18}{19}{.}
+\depedge{19}{23}{.}
+\depedge{20}{21}{.}
+\depedge{21}{23}{.}
+\depedge{22}{23}{.}
+\depedge[edge style={red!60!}, edge below]{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{18}{19}{.}
+\depedge[edge style={red!60!}, edge below]{11}{14}{.}
+\depedge[edge style={red!60!}, edge below]{19}{23}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{6}{8}{.}
+\depedge[edge style={red!60!}, edge below]{22}{23}{.}
+\depedge[edge style={red!60!}, edge below]{1}{3}{.}
+\depedge[edge style={red!60!}, edge below]{19}{21}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{20}{21}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{17}{19}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\depedge[edge style={red!60!}, edge below]{3}{6}{.}
+\depedge[edge style={red!60!}, edge below]{8}{15}{.}
+\depedge[edge style={red!60!}, edge below]{12}{13}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{3}{5}{.}
+\depedge[edge style={red!60!}, edge below]{14}{23}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    In\& Fallujah\& ,\& hundreds\& of\& demonstrators\& came\& out\& against\& US\& troops\& when\& they\& briefly\& arrested\& a\& yound\& newlywed\& bride\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{7}{.}
+\depedge{4}{6}{.}
+\depedge{4}{7}{.}
+\depedge{5}{6}{.}
+\depedge{7}{8}{.}
+\depedge{7}{11}{.}
+\depedge{7}{15}{.}
+\depedge{9}{11}{.}
+\depedge{10}{11}{.}
+\depedge{12}{15}{.}
+\depedge{13}{15}{.}
+\depedge{14}{15}{.}
+\depedge{15}{19}{.}
+\depedge{16}{19}{.}
+\depedge{17}{19}{.}
+\depedge{18}{19}{.}
+\depedge[edge style={red!60!}, edge below]{6}{7}{.}
+\depedge[edge style={red!60!}, edge below]{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\depedge[edge style={red!60!}, edge below]{4}{7}{.}
+\depedge[edge style={red!60!}, edge below]{9}{10}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{17}{18}{.}
+\depedge[edge style={red!60!}, edge below]{18}{19}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{12}{15}{.}
+\depedge[edge style={red!60!}, edge below]{7}{11}{.}
+\depedge[edge style={red!60!}, edge below]{15}{17}{.}
+\depedge[edge style={red!60!}, edge below]{11}{15}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{2}{7}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    (\& I\& hope\& that\& the\& US\& army\& got\& an\& enormous\& amount\& of\& information\& from\& her\& relatives\& ,\& because\& otherwise\& this\& move\& was\& a\& bad\& ,\& bad\& tradeoff\& )\& . \\
+\end{deptext}
+\depedge{2}{3}{.}
+\depedge{3}{8}{.}
+\depedge{3}{27}{.}
+\depedge{4}{8}{.}
+\depedge{5}{7}{.}
+\depedge{6}{7}{.}
+\depedge{7}{8}{.}
+\depedge{8}{11}{.}
+\depedge{8}{16}{.}
+\depedge{9}{11}{.}
+\depedge{10}{11}{.}
+\depedge{11}{13}{.}
+\depedge{12}{13}{.}
+\depedge{14}{16}{.}
+\depedge{15}{16}{.}
+\depedge{18}{27}{.}
+\depedge{19}{27}{.}
+\depedge{20}{21}{.}
+\depedge{21}{27}{.}
+\depedge{22}{27}{.}
+\depedge{23}{27}{.}
+\depedge{24}{27}{.}
+\depedge{26}{27}{.}
+\depedge[edge style={red!60!}, edge below]{24}{26}{.}
+\depedge[edge style={red!60!}, edge below]{11}{13}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{8}{11}{.}
+\depedge[edge style={red!60!}, edge below]{20}{21}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{3}{8}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{12}{13}{.}
+\depedge[edge style={red!60!}, edge below]{6}{7}{.}
+\depedge[edge style={red!60!}, edge below]{4}{8}{.}
+\depedge[edge style={red!60!}, edge below]{24}{27}{.}
+\depedge[edge style={red!60!}, edge below]{19}{21}{.}
+\depedge[edge style={red!60!}, edge below]{18}{19}{.}
+\depedge[edge style={red!60!}, edge below]{23}{27}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{21}{22}{.}
+\depedge[edge style={red!60!}, edge below]{5}{7}{.}
+\depedge[edge style={red!60!}, edge below]{22}{27}{.}
+\depedge[edge style={red!60!}, edge below]{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{13}{16}{.}
+\depedge[edge style={red!60!}, edge below]{8}{18}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    The\& US\& troops\& fired\& into\& the\& hostile\& crowd\& ,\& killing\& 4\& . \\
+\end{deptext}
+\depedge{1}{3}{.}
+\depedge{2}{3}{.}
+\depedge{3}{4}{.}
+\depedge{4}{8}{.}
+\depedge{4}{10}{.}
+\depedge{5}{8}{.}
+\depedge{6}{8}{.}
+\depedge{7}{8}{.}
+\depedge{10}{11}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{4}{8}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{1}{3}{.}
+\depedge[edge style={red!60!}, edge below]{6}{8}{.}
+\depedge[edge style={red!60!}, edge below]{5}{6}{.}
+\depedge[edge style={red!60!}, edge below]{4}{10}{.}
+\depedge[edge style={red!60!}, edge below]{10}{11}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    It\& seems\& clear\& to\& me\& that\& the\& manhunt\& for\& high\& Baath\& officials\& in\& the\& Sunni\& heartland\& is\& being\& done\& wrong\& ,\& or\& at\& least\& in\& ways\& that\& are\& bad\& for\& US\& standing\& with\& local\& Iraqis\& . \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{3}{.}
+\depedge{2}{5}{.}
+\depedge{2}{19}{.}
+\depedge{4}{5}{.}
+\depedge{6}{19}{.}
+\depedge{7}{8}{.}
+\depedge{8}{12}{.}
+\depedge{8}{16}{.}
+\depedge{8}{19}{.}
+\depedge{9}{12}{.}
+\depedge{10}{12}{.}
+\depedge{11}{12}{.}
+\depedge{13}{16}{.}
+\depedge{14}{16}{.}
+\depedge{15}{16}{.}
+\depedge{17}{19}{.}
+\depedge{18}{19}{.}
+\depedge{19}{20}{.}
+\depedge{20}{26}{.}
+\depedge{22}{26}{.}
+\depedge{23}{24}{.}
+\depedge{24}{26}{.}
+\depedge{25}{26}{.}
+\depedge{26}{29}{.}
+\depedge{27}{29}{.}
+\depedge{28}{29}{.}
+\depedge{29}{32}{.}
+\depedge{30}{32}{.}
+\depedge{31}{32}{.}
+\depedge{32}{35}{.}
+\depedge{33}{35}{.}
+\depedge{34}{35}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{12}{16}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{17}{18}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{8}{16}{.}
+\depedge[edge style={red!60!}, edge below]{11}{15}{.}
+\depedge[edge style={red!60!}, edge below]{25}{26}{.}
+\depedge[edge style={red!60!}, edge below]{29}{32}{.}
+\depedge[edge style={red!60!}, edge below]{19}{20}{.}
+\depedge[edge style={red!60!}, edge below]{17}{19}{.}
+\depedge[edge style={red!60!}, edge below]{27}{29}{.}
+\depedge[edge style={red!60!}, edge below]{30}{31}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{28}{29}{.}
+\depedge[edge style={red!60!}, edge below]{29}{31}{.}
+\depedge[edge style={red!60!}, edge below]{2}{5}{.}
+\depedge[edge style={red!60!}, edge below]{34}{35}{.}
+\depedge[edge style={red!60!}, edge below]{15}{19}{.}
+\depedge[edge style={red!60!}, edge below]{32}{35}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{10}{12}{.}
+\depedge[edge style={red!60!}, edge below]{3}{8}{.}
+\depedge[edge style={red!60!}, edge below]{9}{12}{.}
+\depedge[edge style={red!60!}, edge below]{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\depedge[edge style={red!60!}, edge below]{19}{29}{.}
+\depedge[edge style={red!60!}, edge below]{25}{29}{.}
+\depedge[edge style={red!60!}, edge below]{32}{33}{.}
+\depedge[edge style={red!60!}, edge below]{3}{6}{.}
+\depedge[edge style={red!60!}, edge below]{22}{24}{.}
+\depedge[edge style={red!60!}, edge below]{23}{24}{.}
+\depedge[edge style={red!60!}, edge below]{24}{26}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    Google\& has\& finally\& had\& an\& analyst\& day\& --\& a\& chance\& to\& present\& the\& company\& 's\& story\& to\& the\& (\& miniscule\& number\& of\& )\& people\& who\& have\& n't\& heard\& it\& . \\
+\end{deptext}
+\depedge{1}{4}{.}
+\depedge{2}{4}{.}
+\depedge{3}{4}{.}
+\depedge{4}{7}{.}
+\depedge{5}{7}{.}
+\depedge{6}{7}{.}
+\depedge{7}{10}{.}
+\depedge{9}{10}{.}
+\depedge{10}{12}{.}
+\depedge{11}{12}{.}
+\depedge{12}{16}{.}
+\depedge{12}{21}{.}
+\depedge{13}{14}{.}
+\depedge{14}{15}{.}
+\depedge{14}{16}{.}
+\depedge{17}{21}{.}
+\depedge{18}{21}{.}
+\depedge{20}{21}{.}
+\depedge{21}{24}{.}
+\depedge{22}{24}{.}
+\depedge{24}{28}{.}
+\depedge{25}{28}{.}
+\depedge{26}{28}{.}
+\depedge{27}{28}{.}
+\depedge{28}{29}{.}
+\depedge[edge style={red!60!}, edge below]{26}{27}{.}
+\depedge[edge style={red!60!}, edge below]{2}{4}{.}
+\depedge[edge style={red!60!}, edge below]{14}{16}{.}
+\depedge[edge style={red!60!}, edge below]{27}{28}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{13}{14}{.}
+\depedge[edge style={red!60!}, edge below]{20}{21}{.}
+\depedge[edge style={red!60!}, edge below]{13}{18}{.}
+\depedge[edge style={red!60!}, edge below]{28}{29}{.}
+\depedge[edge style={red!60!}, edge below]{9}{10}{.}
+\depedge[edge style={red!60!}, edge below]{6}{7}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{12}{14}{.}
+\depedge[edge style={red!60!}, edge below]{21}{24}{.}
+\depedge[edge style={red!60!}, edge below]{11}{12}{.}
+\depedge[edge style={red!60!}, edge below]{4}{7}{.}
+\depedge[edge style={red!60!}, edge below]{7}{16}{.}
+\depedge[edge style={red!60!}, edge below]{24}{28}{.}
+\depedge[edge style={red!60!}, edge below]{7}{10}{.}
+\depedge[edge style={red!60!}, edge below]{22}{24}{.}
+\depedge[edge style={red!60!}, edge below]{25}{28}{.}
+\depedge[edge style={red!60!}, edge below]{5}{6}{.}
+\depedge[edge style={red!60!}, edge below]{15}{16}{.}
+\depedge[edge style={red!60!}, edge below]{12}{17}{.}
+\depedge[edge style={red!60!}, edge below]{16}{24}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    Usually\& ,\& these\& are\& just\& a\& chance\& for\& the\& suckups\& to\& suck\& up\& ,\& but\& this\& time\& people\& are\& actually\& concerned\& about\& the\& company\& 's\& plans\& . \\
+\end{deptext}
+\depedge{1}{7}{.}
+\depedge{3}{7}{.}
+\depedge{4}{7}{.}
+\depedge{5}{7}{.}
+\depedge{6}{7}{.}
+\depedge{7}{12}{.}
+\depedge{7}{21}{.}
+\depedge{8}{12}{.}
+\depedge{9}{10}{.}
+\depedge{10}{12}{.}
+\depedge{11}{12}{.}
+\depedge{12}{13}{.}
+\depedge{15}{21}{.}
+\depedge{16}{17}{.}
+\depedge{17}{21}{.}
+\depedge{18}{21}{.}
+\depedge{19}{21}{.}
+\depedge{20}{21}{.}
+\depedge{21}{26}{.}
+\depedge{22}{26}{.}
+\depedge{23}{24}{.}
+\depedge{24}{25}{.}
+\depedge{24}{26}{.}
+\depedge[edge style={red!60!}, edge below]{20}{21}{.}
+\depedge[edge style={red!60!}, edge below]{19}{21}{.}
+\depedge[edge style={red!60!}, edge below]{18}{21}{.}
+\depedge[edge style={red!60!}, edge below]{11}{12}{.}
+\depedge[edge style={red!60!}, edge below]{16}{17}{.}
+\depedge[edge style={red!60!}, edge below]{17}{21}{.}
+\depedge[edge style={red!60!}, edge below]{6}{7}{.}
+\depedge[edge style={red!60!}, edge below]{24}{26}{.}
+\depedge[edge style={red!60!}, edge below]{23}{24}{.}
+\depedge[edge style={red!60!}, edge below]{21}{26}{.}
+\depedge[edge style={red!60!}, edge below]{1}{7}{.}
+\depedge[edge style={red!60!}, edge below]{25}{26}{.}
+\depedge[edge style={red!60!}, edge below]{12}{13}{.}
+\depedge[edge style={red!60!}, edge below]{10}{12}{.}
+\depedge[edge style={red!60!}, edge below]{5}{7}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{15}{21}{.}
+\depedge[edge style={red!60!}, edge below]{7}{10}{.}
+\depedge[edge style={red!60!}, edge below]{21}{22}{.}
+\depedge[edge style={red!60!}, edge below]{9}{23}{.}
+\depedge[edge style={red!60!}, edge below]{10}{24}{.}
+\depedge[edge style={red!60!}, edge below]{8}{9}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    They\& work\& on\& Wall\& Street\& ,\& after\& all\& ,\& so\& when\& they\& hear\& a\& company\& who's\& stated\& goals\& include\& "\& Do\& n't\& be\& evil\& ,\& "\& they\& imagine\& a\& company\& who's\& eventually\& history\& will\& be\& "\& Do\& n't\& be\& profitable\& .\& " \\
+\end{deptext}
+\depedge{1}{2}{.}
+\depedge{2}{5}{.}
+\depedge{2}{8}{.}
+\depedge{2}{28}{.}
+\depedge{3}{5}{.}
+\depedge{4}{5}{.}
+\depedge{7}{8}{.}
+\depedge{10}{28}{.}
+\depedge{11}{13}{.}
+\depedge{12}{13}{.}
+\depedge{13}{15}{.}
+\depedge{13}{28}{.}
+\depedge{14}{15}{.}
+\depedge{15}{19}{.}
+\depedge{16}{18}{.}
+\depedge{17}{18}{.}
+\depedge{18}{19}{.}
+\depedge{19}{24}{.}
+\depedge{21}{24}{.}
+\depedge{22}{24}{.}
+\depedge{23}{24}{.}
+\depedge{27}{28}{.}
+\depedge{28}{30}{.}
+\depedge{29}{30}{.}
+\depedge{30}{40}{.}
+\depedge{31}{33}{.}
+\depedge{32}{33}{.}
+\depedge{33}{40}{.}
+\depedge{34}{40}{.}
+\depedge{35}{40}{.}
+\depedge{37}{40}{.}
+\depedge{38}{40}{.}
+\depedge{39}{40}{.}
+\depedge[edge style={red!60!}, edge below]{37}{38}{.}
+\depedge[edge style={red!60!}, edge below]{21}{22}{.}
+\depedge[edge style={red!60!}, edge below]{23}{39}{.}
+\depedge[edge style={red!60!}, edge below]{21}{37}{.}
+\depedge[edge style={red!60!}, edge below]{1}{2}{.}
+\depedge[edge style={red!60!}, edge below]{17}{18}{.}
+\depedge[edge style={red!60!}, edge below]{27}{28}{.}
+\depedge[edge style={red!60!}, edge below]{35}{39}{.}
+\depedge[edge style={red!60!}, edge below]{16}{17}{.}
+\depedge[edge style={red!60!}, edge below]{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{15}{17}{.}
+\depedge[edge style={red!60!}, edge below]{29}{30}{.}
+\depedge[edge style={red!60!}, edge below]{12}{13}{.}
+\depedge[edge style={red!60!}, edge below]{31}{33}{.}
+\depedge[edge style={red!60!}, edge below]{13}{17}{.}
+\depedge[edge style={red!60!}, edge below]{11}{13}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{32}{33}{.}
+\depedge[edge style={red!60!}, edge below]{39}{40}{.}
+\depedge[edge style={red!60!}, edge below]{16}{31}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{30}{31}{.}
+\depedge[edge style={red!60!}, edge below]{31}{35}{.}
+\depedge[edge style={red!60!}, edge below]{34}{35}{.}
+\depedge[edge style={red!60!}, edge below]{2}{4}{.}
+\depedge[edge style={red!60!}, edge below]{28}{30}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{8}{10}{.}
+\depedge[edge style={red!60!}, edge below]{23}{24}{.}
+\depedge[edge style={red!60!}, edge below]{2}{8}{.}
+\depedge[edge style={red!60!}, edge below]{21}{24}{.}
+\depedge[edge style={red!60!}, edge below]{17}{19}{.}
+\depedge[edge style={red!60!}, edge below]{10}{13}{.}
+\end{dependency}
+
+
+\begin{dependency}[hide label, edge unit distance=.5ex]
+    \begin{deptext}[column sep=0.05cm]
+    It\& 's\& not\& quite\& as\& freewheeling\& an\& environment\& as\& you\& 'd\& imagine\& :\& Sergey\& Brin\& has\& actually\& created\& a\& mathematical\& '\& proof\& '\& that\& the\& company\& 's\& self\& -\& driven\& research\& strategy\& ,\& which\& gives\& employees\& one\& day\& a\& week\& to\& do\& research\& projects\& on\& their\& own\& ,\& is\& a\& good\& ,\& respectable\& idea\& . \\
+\end{deptext}
+\depedge{1}{8}{.}
+\depedge{2}{8}{.}
+\depedge{3}{8}{.}
+\depedge{4}{5}{.}
+\depedge{5}{6}{.}
+\depedge{6}{8}{.}
+\depedge{6}{12}{.}
+\depedge{7}{8}{.}
+\depedge{8}{18}{.}
+\depedge{9}{12}{.}
+\depedge{10}{12}{.}
+\depedge{11}{12}{.}
+\depedge{14}{15}{.}
+\depedge{14}{18}{.}
+\depedge{16}{18}{.}
+\depedge{17}{18}{.}
+\depedge{18}{22}{.}
+\depedge{19}{22}{.}
+\depedge{20}{22}{.}
+\depedge{22}{54}{.}
+\depedge{24}{54}{.}
+\depedge{25}{26}{.}
+\depedge{26}{27}{.}
+\depedge{26}{32}{.}
+\depedge{28}{29}{.}
+\depedge{28}{30}{.}
+\depedge{30}{32}{.}
+\depedge{31}{32}{.}
+\depedge{32}{35}{.}
+\depedge{32}{54}{.}
+\depedge{34}{35}{.}
+\depedge{35}{36}{.}
+\depedge{35}{38}{.}
+\depedge{37}{38}{.}
+\depedge{38}{40}{.}
+\depedge{38}{42}{.}
+\depedge{39}{40}{.}
+\depedge{41}{42}{.}
+\depedge{42}{44}{.}
+\depedge{42}{47}{.}
+\depedge{43}{44}{.}
+\depedge{45}{47}{.}
+\depedge{46}{47}{.}
+\depedge{49}{54}{.}
+\depedge{50}{54}{.}
+\depedge{51}{54}{.}
+\depedge{53}{54}{.}
+\depedge[edge style={red!60!}, edge below]{43}{44}{.}
+\depedge[edge style={red!60!}, edge below]{51}{53}{.}
+\depedge[edge style={red!60!}, edge below]{11}{12}{.}
+\depedge[edge style={red!60!}, edge below]{32}{35}{.}
+\depedge[edge style={red!60!}, edge below]{38}{40}{.}
+\depedge[edge style={red!60!}, edge below]{31}{32}{.}
+\depedge[edge style={red!60!}, edge below]{14}{15}{.}
+\depedge[edge style={red!60!}, edge below]{37}{38}{.}
+\depedge[edge style={red!60!}, edge below]{26}{31}{.}
+\depedge[edge style={red!60!}, edge below]{17}{18}{.}
+\depedge[edge style={red!60!}, edge below]{25}{26}{.}
+\depedge[edge style={red!60!}, edge below]{46}{47}{.}
+\depedge[edge style={red!60!}, edge below]{41}{42}{.}
+\depedge[edge style={red!60!}, edge below]{16}{18}{.}
+\depedge[edge style={red!60!}, edge below]{35}{36}{.}
+\depedge[edge style={red!60!}, edge below]{51}{54}{.}
+\depedge[edge style={red!60!}, edge below]{37}{39}{.}
+\depedge[edge style={red!60!}, edge below]{3}{4}{.}
+\depedge[edge style={red!60!}, edge below]{28}{30}{.}
+\depedge[edge style={red!60!}, edge below]{50}{54}{.}
+\depedge[edge style={red!60!}, edge below]{22}{30}{.}
+\depedge[edge style={red!60!}, edge below]{18}{20}{.}
+\depedge[edge style={red!60!}, edge below]{7}{8}{.}
+\depedge[edge style={red!60!}, edge below]{6}{8}{.}
+\depedge[edge style={red!60!}, edge below]{6}{14}{.}
+\depedge[edge style={red!60!}, edge below]{49}{54}{.}
+\depedge[edge style={red!60!}, edge below]{34}{35}{.}
+\depedge[edge style={red!60!}, edge below]{44}{45}{.}
+\depedge[edge style={red!60!}, edge below]{18}{19}{.}
+\depedge[edge style={red!60!}, edge below]{10}{12}{.}
+\depedge[edge style={red!60!}, edge below]{1}{4}{.}
+\depedge[edge style={red!60!}, edge below]{42}{43}{.}
+\depedge[edge style={red!60!}, edge below]{44}{47}{.}
+\depedge[edge style={red!60!}, edge below]{14}{18}{.}
+\depedge[edge style={red!60!}, edge below]{39}{50}{.}
+\depedge[edge style={red!60!}, edge below]{18}{22}{.}
+\depedge[edge style={red!60!}, edge below]{30}{31}{.}
+\depedge[edge style={red!60!}, edge below]{2}{3}{.}
+\depedge[edge style={red!60!}, edge below]{1}{6}{.}
+\depedge[edge style={red!60!}, edge below]{35}{37}{.}
+\depedge[edge style={red!60!}, edge below]{27}{31}{.}
+\depedge[edge style={red!60!}, edge below]{6}{12}{.}
+\depedge[edge style={red!60!}, edge below]{29}{30}{.}
+\depedge[edge style={red!60!}, edge below]{4}{5}{.}
+\depedge[edge style={red!60!}, edge below]{42}{54}{.}
+\depedge[edge style={red!60!}, edge below]{9}{12}{.}
+\depedge[edge style={red!60!}, edge below]{24}{34}{.}
+\end{dependency}

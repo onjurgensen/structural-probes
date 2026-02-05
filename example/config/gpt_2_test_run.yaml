@@ -50,6 +50,6 @@ reporting:
     test_path: test.predictions
   reporting_methods:
     - spearmanr
-    - image_examples
+    # - image_examples
     # - root_acc
     - uuas

@@ -12,7 +12,7 @@ import data
 import model
 import probe
 import regimen
-import reporter
+import reporter_custom as reporter
 import task
 import loss
 
@@ -151,9 +151,9 @@ def run_report_results(args, probe, dataset, model, loss, reporter, regimen):
   #reporter(train_predictions, train_dataloader, 'train')
 
   # Uncomment to run on the test set
-  #test_dataloader = dataset.get_test_dataloader()
-  #test_predictions = regimen.predict(probe, model, test_dataloader)
-  #reporter(test_predictions, test_dataloader, 'test')
+  # test_dataloader = dataset.get_test_dataloader()
+  # test_predictions = regimen.predict(probe, model, test_dataloader)
+  # reporter(test_predictions, test_dataloader, 'test')
 
 def execute_experiment(args, train_probe, report_results):
   """
