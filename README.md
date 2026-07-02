@@ -1,4 +1,6 @@
-This repository adapts the follwoing repository to GPT-2, and the fleeting memeory transformer.
+# Probing the Fleeting Memory Transformer
+
+This repository adapts Hewiit & Manning's structural probe to GPT-2, and the fleeting memory transformer.
 
       @InProceedings{hewitt2019structural,
         author =      "Hewitt, John and Manning, Christopher D.",
